@@ -1,3 +1,28 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://biomadeira.github.io/vitae
+author: Fábio Madeira
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: "/"
+title: Nell Byler
 name: Nell Byler
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+email: nell.byler@gmail.com
+email_full: mailto:nell.byler@gmail.com
+website: nell-byler.github.io
+website_full: https://nell-byler.github.io
+github: nell-byler
+twitter: lstar_gal
+google_analytics: UA-85469455-1
+
+# needed for travis-ci build
+exclude: [vendor]
