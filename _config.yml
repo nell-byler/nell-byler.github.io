@@ -1,5 +1,5 @@
 highlighter: rouge
-markdown: rdiscount
+markdown: kramdown
 rdiscount:
   extensions: [smart]
 permalink: /:title.html
@@ -7,12 +7,11 @@ paginate: 5
 gems: [jekyll-paginate]
 port: 4000
 safe: true
-url: http://biomadeira.github.io/vitae
-author: Fábio Madeira
 
 # edit this section with your information
 # biomadeira.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
+url: http://nell-byler.github.io/
 baseurl: "/"
 title: Nell Byler
 name: Nell Byler
