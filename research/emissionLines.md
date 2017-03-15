@@ -1,3 +1,6 @@
+---
+title: Emission lines included in FSPS
+---
 | Wavelength (A) | Line ID | Cloudy ID |
 | :--- | :---: | :---: |
 | 923.148 | Ly 923 | `H  1 923.156A` |
