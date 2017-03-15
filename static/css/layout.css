@@ -164,11 +164,18 @@ table {
     width: 100%;
 }
 
-td, th {
+td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
+th {
+    font-weight: bold;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
 
 tr:nth-child(even) {
     background-color: #dddddd;
