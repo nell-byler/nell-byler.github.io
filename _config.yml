@@ -21,6 +21,7 @@ website: nell-byler.github.io
 website_full: https://nell-byler.github.io
 github: nell-byler
 twitter: lstar_gal
+linkedin: nell-byler
 google_analytics: UA-85469455-1
 
 # needed for travis-ci build
