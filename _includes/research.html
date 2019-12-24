@@ -1,27 +1,37 @@
 <section class="thirteen columns">
   <h1>Ongoing Research Projects</h1>
-  <h4>The UV properties of star-forming galaxies</h4>
+
+  <h4>Nebular Emission in FSPS</h4>
     <article>
-      <p>I am currently working on characterizing the stellar and nebular properties of star-forming galaxies in the rest-frame ultraviolet. I published a suite of UV-based emission and absorption line diagnostics in <a style="color:#333; text-decoration: underline;" href="http://adsabs.harvard.edu/abs/2018ApJ...863...14B">Byler+2018</a>.</p>
-    </article>
-    <h4>LIER-like emission from post-AGB stars</h4>
-      <article>
-        <p> In <a style="color:#333; text-decoration: underline;" href="https://ui.adsabs.harvard.edu/abs/2019AJ....158....2B/abstract">Byler+2019</a>, I explored the ionizing properties and colors of hot, evolved stars. I found that post-AGB stars naturally reproduce LIER-like emission line ratios and equivalent widths, and that a small population of blue horizontal brainch stars can explain the UV-excess seen in some early-type galaxies. Tables of emission line ratios can be found <a style="color:#333; text-decoration: underline;" href="https://drive.google.com/open?id=1mNQFpy8heWh5wRqnScbrYH3DVfucMyBa">here</a>.</p>
-      </article>
-    <h4>Nebular Emission in FSPS</h4>
-    <article>
-      <p>I have implemented a nebular model within <a style="color:#333; text-decoration: underline;" href="https://github.com/cconroy20/fsps">FSPS</a> that self-consistently computes the contribution of nebular line and continuum emission for stellar populations using the photoionization code <code>Cloudy</code>. The model is described in <a style="color:#333; text-decoration: underline;" href="http://adsabs.harvard.edu/abs/2017ApJ...840...44B">Byler+2017</a>.</p><br>
-      <p>You can use FSPS or <a style="color:#333; text-decoration: underline;" href="http://dan.iel.fm/python-fsps/current/">python-FSPS</a> to compute the nebular contribution for complex stellar populations. The nebular model is self-consistent for stellar populations generated using <a style="color:#333; text-decoration: underline;" href="http://waps.cfa.harvard.edu/MIST/">MIST</a>, Padova, PARSEC, and BPASS (new!) evolutionary tracks.
-      <div class="container">
+      <p>I have implemented a gas model within <a style="color:#333; text-decoration: underline;" href="https://github.com/cconroy20/fsps">FSPS</a> that self-consistently computes the contribution of nebular line and continuum emission for stellar populations using the photoionization code <code>Cloudy</code>. The model is described in <a style="color:#333; text-decoration: underline;" href="http://adsabs.harvard.edu/abs/2017ApJ...840...44B">Byler+2017</a>.</p><br>
+      <p>You can use FSPS or <a style="color:#333; text-decoration: underline;" href="http://dan.iel.fm/python-fsps/current/">python-FSPS</a> to compute the nebular contribution for complex stellar populations. The nebular model is self-consistent for stellar populations generated using <a style="color:#333; text-decoration: underline;" href="http://waps.cfa.harvard.edu/MIST/">MIST</a>, Padova, PARSEC, and BPASS evolutionary tracks.</p>
+      <p><div class="container">
       <img src="https://nell-byler.github.io/static/img/BPT.png" class="img-responsive" alt="BPT diagram for different stellar models" height="188">
       </div></p><br>
-
     <center><em> Simple Python Usage Example:</em></center><br>
       <p><iframe style="border: 1px solid #ccc" width="100%" height="400" src="nebular.html"></iframe></p><br>
 
       <h4>Cloudy + FSPS</h4>
-      <p>The nebular model was generated with the <a style="color:#333; text-decoration: underline;" href="http://nell-byler.github.io/cloudyfsps/">cloudyFSPS</a> package. Visit the project page (<a style="color:#333; text-decoration: underline;" href="http://nell-byler.github.io/cloudyfsps/">nell-byler.github.io/cloudyfsps</a>) to download emission line tables or for more information on pairing FSPS with <code>Cloudy</code>.</p>
+      <p>The nebular model was generated with the <a style="color:#333; text-decoration: underline;" href="http://nell-byler.github.io/cloudyfsps/">cloudyFSPS</a> package. Visit the project page (<a style="color:#333; text-decoration: underline;" href="http://nell-byler.github.io/cloudyfsps/">nell-byler.github.io/cloudyfsps</a>) to download emission line tables or to find more information on pairing FSPS with <code>Cloudy</code>.</p>
     </article>
+
+    <h4>The UV properties of star-forming galaxies</h4>
+    <article>
+      <p>Light emitted from the first galaxies in the universe has been substantially redshifted: photons that are emitted in the ultraviolet (UV) will be observable in the infrared. Studies of these first galaxies with next-generation facilities (e.g., the <i> James Webb Space Telescope </i>) will thus rely on UV diagnostics. While diagnostics in the optical are well-characterized, UV diagnostics are not well established. I published a suite of UV emission and absorption line diagnostics in <a style="color:#333; text-decoration: underline;" href="http://adsabs.harvard.edu/abs/2018ApJ...863...14B">Byler+2018</a>, and I am currently working on comparing different galactic properties derived with UV and optical diagnostics.</p>
+      <div class="container">
+          <img src="https://nell-byler.github.io/static/img/UV.png" class="img-responsive" alt="Comparison of UV and optical diagnostics." height="300">
+</div></p><br>
+</article>
+
+    <h4>LIER-like emission from post-AGB stars</h4>
+      <article>
+        <p> In <a style="color:#333; text-decoration: underline;" href="https://ui.adsabs.harvard.edu/abs/2019AJ....158....2B/abstract">Byler+2019</a>, I explored the ionizing properties and colors of hot, evolved stars. I found that post-AGB stars naturally reproduce LIER-like emission line ratios and equivalent widths, and that a small population of blue horizontal brainch stars can explain the UV-excess seen in some early-type galaxies. Tables of emission line ratios can be found <a style="color:#333; text-decoration: underline;" href="https://drive.google.com/open?id=1mNQFpy8heWh5wRqnScbrYH3DVfucMyBa">here</a>.</p>
+        <div class="container">
+          <img src="https://nell-byler.github.io/static/img/pagb.png" class="img-responsive" alt="Hydrogen emission from post-AGB stars" height="300">
+</div></p><br>
+
+      </article>
+
     <h4>Using resolved stellar populations to characterize biases in spectral fitting</h4>
     <article>
       <div class="container">
